@@ -1,4 +1,4 @@
-# Implementing ID3 Algorithm
+# Implementing Neural Network with 2 Hidden Layers From Scratch
 
 ### Files Included:
 * **NeuralNet.py**:
