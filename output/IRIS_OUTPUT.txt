@@ -1,6 +1,6 @@
 SIGMOID ACTIVATION FUNCTION WITH 10000 ITERATIONS AND LEARNING RATE OF 0.005
 
-D:\UTD\CS 6375 Machine Learning\Assignments\Assignment-3>python NeuralNet.py https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data 10000 0.05 sigmoid
+python NeuralNet.py "https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data" 10000 0.05 sigmoid
 After 10000 iterations, the total error is 0.5053148684103779
 The final weight vectors are (starting from input to output layers)
 [[-2.2643578  -0.16755632  1.93125533 -0.2961835 ]
@@ -19,7 +19,7 @@ ________________________________________________________________________________
 
 TANH ACTIVATION FUNCTION WITH 10000 ITERATIONS AND LEARNING RATE OF 0.005
 
-D:\UTD\CS 6375 Machine Learning\Assignments\Assignment-3>python NeuralNet.py https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data 10000 0.05 tanh
+python NeuralNet.py "https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data" 10000 0.05 tanh
 After 10000 iterations, the total error is 23.62492757969203
 The final weight vectors are (starting from input to output layers)
 [[ 3.78285206 -1.22103118  1.59458458 -0.62848511]
@@ -38,7 +38,7 @@ ________________________________________________________________________________
 
 RELU ACTIVATION FUNCTION WITH 10000 ITERATIONS AND LEARNING RATE OF 0.005
 
-D:\UTD\CS 6375 Machine Learning\Assignments\Assignment-3>python NeuralNet.py https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data 10000 0.05 relu
+python NeuralNet.py "https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data" 10000 0.05 relu
 After 10000 iterations, the total error is 25.625
 The final weight vectors are (starting from input to output layers)
 [[ 0.24672023 -0.96835751  0.85887447  0.38179384]

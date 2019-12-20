@@ -1,6 +1,6 @@
 SIGMOID ACTIVATION FUNCTION WITH 10000 ITERATIONS AND LEARNING RATE OF 0.005
 
-D:\UTD\CS 6375 Machine Learning\Assignments\Assignment-3>python NeuralNet.py https://archive.ics.uci.edu/ml/machine-learning-databases/wine/wine.data 10000 0.005 sigmoid
+python NeuralNet.py "https://archive.ics.uci.edu/ml/machine-learning-databases/wine/wine.data" 10000 0.005 sigmoid
 After 10000 iterations, the total error is 1.2928654791788285
 The final weight vectors are (starting from input to output layers)
 [[-0.44432925  0.05794698 -1.21124174 -3.69025999]
@@ -28,7 +28,7 @@ ________________________________________________________________________________
 
 TANH ACTIVATION FUNCTION WITH 10000 ITERATIONS AND LEARNING RATE OF 0.005
 
-D:\UTD\CS 6375 Machine Learning\Assignments\Assignment-3>python NeuralNet.py https://archive.ics.uci.edu/ml/machine-learning-databases/wine/wine.data 10000 0.005 tanh
+python NeuralNet.py "https://archive.ics.uci.edu/ml/machine-learning-databases/wine/wine.data" 10000 0.005 tanh
 After 10000 iterations, the total error is 0.7887520268772841
 The final weight vectors are (starting from input to output layers)
 [[-0.91909798 -0.57312339 -0.07599956 -0.46652403]
@@ -56,7 +56,7 @@ ________________________________________________________________________________
 
 RELU ACTIVATION FUNCTION WITH 10000 ITERATIONS AND LEARNING RATE OF 0.005
 
-D:\UTD\CS 6375 Machine Learning\Assignments\Assignment-3>python NeuralNet.py https://archive.ics.uci.edu/ml/machine-learning-databases/wine/wine.data 10000 0.005 relu
+python NeuralNet.py "https://archive.ics.uci.edu/ml/machine-learning-databases/wine/wine.data" 10000 0.005 relu
 After 10000 iterations, the total error is 21.824405672890528
 The final weight vectors are (starting from input to output layers)
 [[-0.20737342 -0.78526939  0.01962056 -0.79572953]

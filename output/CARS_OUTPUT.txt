@@ -1,6 +1,6 @@
 SIGMOID ACTIVATION FUNCTION WITH 1000 ITERATIONS AND LEARNING RATE OF 0.007
 
-D:\UTD\CS 6375 Machine Learning\Assignments\Assignment-3>python NeuralNet.py https://archive.ics.uci.edu/ml/machine-learning-databases/car/car.data 1000 0.007 sigmoid
+python NeuralNet.py "https://archive.ics.uci.edu/ml/machine-learning-databases/car/car.data" 1000 0.007 sigmoid
 After 1000 iterations, the total error is 50.6901485418464
 The final weight vectors are (starting from input to output layers)
 [[ 0.66210441 -0.10313464 -0.05786094 -0.17967419]
@@ -21,7 +21,7 @@ ________________________________________________________________________________
 
 TANH ACTIVATION FUNCTION WITH 1000 ITERATIONS AND LEARNING RATE OF 0.007
 
-D:\UTD\CS 6375 Machine Learning\Assignments\Assignment-3>python NeuralNet.py https://archive.ics.uci.edu/ml/machine-learning-databases/car/car.data 1000 0.007 tanh
+python NeuralNet.py "https://archive.ics.uci.edu/ml/machine-learning-databases/car/car.data" 1000 0.007 tanh
 After 1000 iterations, the total error is 221.99999903336038
 The final weight vectors are (starting from input to output layers)
 [[-1.0739478   1.62881632 -1.03950078  0.90685201]
@@ -42,7 +42,7 @@ ________________________________________________________________________________
 
 RELU ACTIVATION FUNCTION WITH 1000 ITERATIONS AND LEARNING RATE OF 0.007
 
-D:\UTD\CS 6375 Machine Learning\Assignments\Assignment-3>python NeuralNet.py https://archive.ics.uci.edu/ml/machine-learning-databases/car/car.data 1000 0.007 relu
+python NeuralNet.py "https://archive.ics.uci.edu/ml/machine-learning-databases/car/car.data" 1000 0.007 relu
 After 1000 iterations, the total error is 240.66666666666669
 The final weight vectors are (starting from input to output layers)
 [[ 0.654272   -0.00834721 -0.27302263 -0.44879379]
