@@ -24,7 +24,7 @@
 * Replace the *activation_function* in the above command with the desired activation function( tanh, sigmoid, ReLu)
 
 ### Example Run commands
-* **Car Dataset**: _python3 NeuralNet.py "https://archive.ics.uci.edu/ml/machine-learning-databases/car/car.data 1000 0.007 sigmoid"_
-* **Iris Dataset**: _python3 NeuralNet.py "https://archive.ics.uci.edu/ml/machine-learning-databases/tic-tac-toe/tic-tac-toe.data 10000 0.05 sigmoid" _
-* **Hepatitis Dataset**: _python NeuralNet.py https://archive.ics.uci.edu/ml/machine-learning-databases/hepatitis/hepatitis.data 1000 0.005 sigmoid_
-* **Wine Dataset**: _python3 NeuralNet.py "https://archive.ics.uci.edu/ml/machine-learning-databases/wine/wine.data 10000 0.005 sigmoid"_
+* **Car Dataset**: _python3 NeuralNet.py "https://archive.ics.uci.edu/ml/machine-learning-databases/car/car.data" 1000 0.007 sigmoid"_
+* **Iris Dataset**: _python3 NeuralNet.py "https://archive.ics.uci.edu/ml/machine-learning-databases/tic-tac-toe/tic-tac-toe.data" 10000 0.05 sigmoid" _
+* **Hepatitis Dataset**: _python NeuralNet.py https://archive.ics.uci.edu/ml/machine-learning-databases/hepatitis/hepatitis.data" 1000 0.005 sigmoid_
+* **Wine Dataset**: _python3 NeuralNet.py "https://archive.ics.uci.edu/ml/machine-learning-databases/wine/wine.data" 10000 0.005 sigmoid"_
