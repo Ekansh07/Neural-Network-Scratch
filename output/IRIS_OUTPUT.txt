@@ -1,0 +1,54 @@
+SIGMOID ACTIVATION FUNCTION WITH 10000 ITERATIONS AND LEARNING RATE OF 0.005
+
+D:\UTD\CS 6375 Machine Learning\Assignments\Assignment-3>python NeuralNet.py https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data 10000 0.05 sigmoid
+After 10000 iterations, the total error is 0.5053148684103779
+The final weight vectors are (starting from input to output layers)
+[[-2.2643578  -0.16755632  1.93125533 -0.2961835 ]
+ [ 3.79370481 -1.5562071  -2.2901324   1.95310896]
+ [ 1.02333214 -0.90861198 -0.08883524 -0.85608526]
+ [ 0.96989945  1.01583473  0.0064889  -1.34584844]]
+[[-3.76398355  0.83176217]
+ [ 1.36183629  2.31976173]
+ [ 1.01513085  3.32659475]
+ [ 8.44545285 -3.39691266]]
+[[-8.3287886]
+ [ 7.9593744]]
+Test Output error: 0.15138451600929725
+
+______________________________________________________________________________________________________________________________________________________________________
+
+TANH ACTIVATION FUNCTION WITH 10000 ITERATIONS AND LEARNING RATE OF 0.005
+
+D:\UTD\CS 6375 Machine Learning\Assignments\Assignment-3>python NeuralNet.py https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data 10000 0.05 tanh
+After 10000 iterations, the total error is 23.62492757969203
+The final weight vectors are (starting from input to output layers)
+[[ 3.78285206 -1.22103118  1.59458458 -0.62848511]
+ [ 1.60037677 -0.13691297 -0.41760558 -0.40563745]
+ [ 4.13826736 -1.26853104  1.28541701 -0.38830483]
+ [ 4.6368087  -0.05429239  0.03676272 -1.80928923]]
+[[-3.30728674 -6.17363103]
+ [ 4.69695622  4.05703312]
+ [-2.53470071 -0.1564972 ]
+ [ 0.01168144  6.53709073]]
+[[-3.89377543]
+ [-3.23866522]]
+Test Output error: 6.624978910755913
+
+______________________________________________________________________________________________________________________________________________________________________
+
+RELU ACTIVATION FUNCTION WITH 10000 ITERATIONS AND LEARNING RATE OF 0.005
+
+D:\UTD\CS 6375 Machine Learning\Assignments\Assignment-3>python NeuralNet.py https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data 10000 0.05 relu
+After 10000 iterations, the total error is 25.625
+The final weight vectors are (starting from input to output layers)
+[[ 0.24672023 -0.96835751  0.85887447  0.38179384]
+ [ 0.9946457  -0.65531898 -0.7257285   0.86519093]
+ [ 0.39363632 -0.86799965  0.51092611  0.50775238]
+ [ 0.84604907  0.42304952 -0.75145808 -0.96023973]]
+[[-0.94757803 -0.94338702]
+ [-0.50757786  0.7200559 ]
+ [ 0.07766213  0.10564396]
+ [ 0.68406178 -0.75165337]]
+[[-0.44163264]
+ [ 0.17151854]]
+Test Output error: 5.125
